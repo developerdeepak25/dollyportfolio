@@ -1,0 +1,197 @@
+/* #############################media Queries ############################## */
+
+/* ######################## mobile ######################### */
+
+@media (max-width: 480px) {
+    #root{
+        overflow-x: hidden;
+    }
+    .wrapper {
+        max-width: 360px;
+    }
+
+    p {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+
+    /* ########## navbar quereis ###########*/
+    .navbar {
+        max-width: 360px;
+    }
+    
+    .navbar .link-container{
+        position: fixed;
+        top: 0;
+        right: 0;
+        align-self: flex-end;
+        gap: 3rem;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        background-color: #243d44d6;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: 0.5s;
+        
+    }
+    .navbar .link-container.active-burger{
+        transform: translateX(0);
+
+    }
+    .navbar .hanburger{
+        display: block;
+        z-index: 999999;
+    }
+    .navbar .hanburger i{
+        font-size: 3rem;
+    }
+    .link-container .navlink{
+        font-size: 2.5rem;
+    }
+    .link-container .btn{
+        border: none;
+        background-color: transparent;
+        font-weight: normal;
+        padding: 0;
+    }
+    .link-container .btn i{
+        display: none;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .navbar ul li {
+        text-align: center;
+    }
+    
+    
+
+    /* ############### hero queries ################*/
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        padding-top: 12rem;
+    }
+
+    div.hero-section>* {
+        width: 100%;
+    }
+
+    div.hero-section .hero-text {
+        order: 2;
+        margin-top: 6rem;
+        gap: 4rem;
+    }
+
+    div.hero-section .hero-text h1 {
+        font-size: 4.5em;
+    }
+
+    div.hero-section .hero-text p {
+        width: 100%;
+    }
+
+    div.hero-section .hero-text h1::before {
+        display: none;
+    }
+
+    .hero-section .hero-img {
+        order: 1;
+        overflow: hidden;
+    }
+
+    .hero-section .hero-img .circle {
+        display: none;
+    }
+
+    /* #################### edu queries ###################*/
+    .edu-section {
+        padding-top: 120px;
+    }
+
+    .acadmics-container .acadmic-card-container {
+        /* grid-template-columns: 1fr; */
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .acadmic-card-container .card-content {
+        margin: 0;
+    }
+
+    .acadmic-card-container .card-content::before {
+        display: none;
+    }
+
+    .acadmics-container .svg-container {
+        /* display: none; */
+        opacity: 0;
+    }
+
+    /* ############## experience section */
+    .exp-section {
+        padding-top: 0;
+    }
+
+    .exp-heading h1 {
+        font-size: 8rem;
+        opacity: 0.05;
+    }
+
+    .exp-card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ############# contact section ################ */
+    .contact-section {
+        margin-bottom: 12rem;
+        padding-top: 12rem
+    }
+    .contact-section::after{
+        bottom: -50px;
+    }
+    .contact-div{
+        padding: 3rem 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contact-div .contact-form{
+        width: 100%;
+        order: 1;
+    }
+    .contact-desc{
+        width: 100%;
+        gap: 20px;
+    }
+    div.contact-desc>*{
+        align-self: flex-start;
+    }
+    .contact-desc .contact-me p {
+        font-size: 5rem;
+    }
+    .contact-desc .contact-me .cm-me{
+        align-self: flex-start;
+    }
+    .contact-desc .contact-me .cm-me::before{
+        order: 2;
+        width: 9.5rem;
+        height: 5px;
+    }
+    .contact-desc .contact-txt p{
+        text-align: left;
+    }
+    .contact-desc .social-icon{
+        display: none;
+    }
+    
+
+}
