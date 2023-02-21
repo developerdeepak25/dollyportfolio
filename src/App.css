@@ -268,7 +268,13 @@ div.hero-section .hero-text h1 {
 }
 
 div.hero-section .hero-text h1::before {
-  content: url(../img/ovals.svg);
+  /* content: url(../img/ovals.svg); */
+  content: '';
+  background-image: url(../img/ovals.svg);
+  background-repeat: no-repeat;
+  width: 200%;
+  min-height: 300%;
+  z-index: 9;
   position: absolute;
   display: inline;
   /* height: ; */
