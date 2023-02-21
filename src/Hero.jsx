@@ -36,7 +36,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="hero-img">
-                    <img src="./hero.png" alt="Dolly aashrmiya" />
+                    <img src="./img/hero.png" alt="Dolly aashrmiya" />
                     <div className={state ? "circle animate": "circle animateReverse"}></div>
                 </div>
             </div>

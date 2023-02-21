@@ -7,7 +7,7 @@ const Education = () => {
                 {/* <h1>EDUCTION</h1> */}
                 <div className="acadmics-container">
                     <div className="svg-container">
-                        <img src="./elem.svg" alt="element1" />
+                        <img src="./img/elem.svg" alt="element1" />
                     </div>
                     <div className="acadmic-card-container">
                         {/* <div className="acadmic-card"> */}

@@ -268,7 +268,7 @@ div.hero-section .hero-text h1 {
 }
 
 div.hero-section .hero-text h1::before {
-  content: url(../public/ovals.svg);
+  content: url(./img/ovals.svg);
   position: absolute;
   display: inline;
   /* height: ; */
