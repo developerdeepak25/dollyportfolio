@@ -119,6 +119,7 @@
         width: auto;
         display: grid;
         place-content: center;
+        height: 45rem;
     }
 
     .hero-section .hero-img .circle {
