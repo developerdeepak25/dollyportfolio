@@ -97,12 +97,12 @@
 
     div.hero-section .hero-text {
         order: 2;
-        margin-top: 6rem;
         gap: 4rem;
+        margin-top: 3rem;
     }
 
     div.hero-section .hero-text h1 {
-        font-size: 4.5em;
+        font-size: 4em;
     }
 
     div.hero-section .hero-text p {
@@ -131,12 +131,17 @@
         padding-top: 120px;
     }
 
+    .acadmics-container {
+                margin: 0 2rem;
+
+    }
     .acadmics-container .acadmic-card-container {
         /* grid-template-columns: 1fr; */
         margin: 0;
         display: flex;
         flex-direction: column;
         gap: 40px;
+        width: 100%;
     }
 
     .acadmic-card-container .card-content {
@@ -171,7 +176,7 @@
 
     /* ############# contact section ################ */
     .contact-section {
-        margin-bottom: 12rem;
+        margin-bottom: 6rem;
         padding-top: 12rem;
     }
     .contact-section::before{
